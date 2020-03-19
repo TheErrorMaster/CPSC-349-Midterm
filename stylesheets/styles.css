@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+}
+
+div {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+.aligned {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+button {
+    margin-right: 40px;
+}

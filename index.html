@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CPSC-349 Midterm</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+<body>
+
+<form action = "index.php" method="post" enctype="multipart/form-data">
+  <ul>
+      <li>
+        <label class="aligned" for="fname">FIRST NAME:</label>
+        <input type="text" id="fname" name="firstName" required autofocus size="30">
+      </li>
+      <li>
+        <label class="aligned" for="lname">LAST NAME:</label>
+        <input type="text" id="lname" name="lastName" required size="30">
+      </li>
+      <li>
+        <label class="aligned" for="email">EMAIL:</label>
+        <input type="email" id="email" name="Email" required size="30">
+      </li>
+      <li>
+        <label class="aligned" for="major">MAJOR:</label>
+        <label>
+            <input type="radio" name="size" value="cs" checked>
+            CS
+        </label>
+        <label>
+        <input type="radio" name="size" value="csce">
+        CSCE
+        </label>
+        <label>
+            <input type="radio" name="size" value="math">
+            MATH
+        </label>
+      </li>
+      <li>
+        <div class="aligned"></div>
+        <button type="submit" name="submit">Submit</button>
+        <button type="reset" name="reset">Reset</button>
+      </li>
+  </ul>
+</form>
+</body>
+</html>
